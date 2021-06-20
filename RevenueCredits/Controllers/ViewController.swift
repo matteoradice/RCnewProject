@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let testCompiler: TestCompiler = TestCompiler()
+//    let testCompiler: TestCompiler = TestCompiler()
     let simulateRcs: SimulateRcs = SimulateRcs()
     
     override func viewDidLoad() {

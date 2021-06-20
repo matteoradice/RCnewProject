@@ -17,7 +17,7 @@ class AllProjects {
     var projectsArray: [Project]
     
     // Initialization of the attributes
-    init(projectsArray: [Project] = []) {
-        self.projectsArray = projectsArray
+    init() {
+        self.projectsArray = CoreDataManager.shared.loadAllProjects()
     }
 }
